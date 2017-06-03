@@ -15,6 +15,7 @@
 		0BB1014F1B0254FC00B65E09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB1014E1B0254FC00B65E09 /* Images.xcassets */; };
 		0BB101521B0254FC00B65E09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB101501B0254FC00B65E09 /* LaunchScreen.xib */; };
 		0BB1015E1B0254FC00B65E09 /* lospollosprimosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1015D1B0254FC00B65E09 /* lospollosprimosTests.swift */; };
+		0BB101681B02552300B65E09 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 0BB101671B02552300B65E09 /* img */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0BB101571B0254FC00B65E09 /* lospollosprimosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lospollosprimosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB1015C1B0254FC00B65E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB1015D1B0254FC00B65E09 /* lospollosprimosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lospollosprimosTests.swift; sourceTree = "<group>"; };
+		0BB101671B02552300B65E09 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				0BB101431B0254FC00B65E09 /* AppDelegate.swift */,
 				0BB101451B0254FC00B65E09 /* GameScene.sks */,
 				0BB101471B0254FC00B65E09 /* GameScene.swift */,
+				0BB101671B02552300B65E09 /* img */,
 				0BB101491B0254FC00B65E09 /* GameViewController.swift */,
 				0BB1014B1B0254FC00B65E09 /* Main.storyboard */,
 				0BB1014E1B0254FC00B65E09 /* Images.xcassets */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB101681B02552300B65E09 /* img in Resources */,
 				0BB101521B0254FC00B65E09 /* LaunchScreen.xib in Resources */,
 				0BB1014F1B0254FC00B65E09 /* Images.xcassets in Resources */,
 				0BB101461B0254FC00B65E09 /* GameScene.sks in Resources */,
@@ -419,6 +423,7 @@
 				0BB101631B0254FC00B65E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BB101641B0254FC00B65E09 /* Build configuration list for PBXNativeTarget "lospollosprimosTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				0BB101661B0254FC00B65E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
